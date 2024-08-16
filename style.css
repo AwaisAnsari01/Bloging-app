@@ -1,6 +1,14 @@
 html{
     background-color:bisque;
 }
+.nav-bar{
+    background-color: black;
+    color: white;
+}
+#navbar{
+    background-color: black;
+    color: white;
+}
 #forms{
     margin: 2rem 0;
     padding: 2rem;
@@ -8,6 +16,22 @@ html{
     background-color: rgba(255, 201, 210, 0.255);
     border-radius: 5px;
     border: 1px solid gray;
+}
+.btn-blog{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+}
+.login{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.logout{
+    background-color: white;
+    color: black
 }
 
 input{
@@ -43,21 +67,6 @@ width: 220px;
     border: 0px;
     border-radius: 5px;
 }
-.login{
-    width: 6rem ;
-    background-color: black;
-    padding: .4rem .6rem;
-    border: 0px;
-    border-radius: 5px;
-    color: white;
-}
-.blog-btn{
-    background-color: black;
-    padding: .4rem .6rem;
-    border: 0px;
-    border-radius: 5px;
-    
-}
 
 
  .nav-img-div{
@@ -81,6 +90,11 @@ width: 220px;
     border: 0px;
     border-radius: 5px;
 }
+
+
+
+
+
 .main-div{
     background-color: #fff6f6;
     width: 1000px;
@@ -110,9 +124,9 @@ width: 220px;
 .pro-heading{
     font-size: 2.4rem;
     font-weight: bold;
-    color:  black;
+    color: black;
 }
-        .custom-file-input {
+.custom-file-input {
             background-color: #4c68fe;
             color: white;
             display: flex;
@@ -192,6 +206,12 @@ width: 220px;
             cursor: pointer;
         }
         
+      
+
+
+
+
+
         #blog-post-form {
             background-color: white;
             padding: 20px;
@@ -243,6 +263,11 @@ width: 220px;
         #publish-button:hover {
             background-color: #653ad1;
         }
+        
+        
+        
+        
+        /* display */
         #blog-post-display {
             background-color: white;
             padding: 20px;
@@ -269,7 +294,6 @@ width: 220px;
             color: #555;
             line-height: 1.6;
         }
-
 
 
 
